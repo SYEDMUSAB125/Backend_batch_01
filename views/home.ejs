@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        hi welcome to the home page
+    </h1>
+    <div><%- include("./mudassir.html") %></div>
+    <div><% user.forEach((item)=>{ %></div>
+        <div style="color: blue;"><%= item  %></div>
+    <div><% }) %></div>
+    <!-- <p><%= user.name %></p>
+    <p><%= user.age %></p>
+    <p><%= user.email %></p> -->
+</body>
+</html>
